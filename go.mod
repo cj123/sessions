@@ -1,4 +1,4 @@
-module github.com/gorilla/sessions
+module github.com/cj123/sessions
 
 require (
 	github.com/gorilla/context v1.1.1

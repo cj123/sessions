@@ -23,7 +23,7 @@ Let's start with an example that shows the sessions API in a nutshell:
 
 	import (
 		"net/http"
-		"github.com/gorilla/sessions"
+		"github.com/cj123/sessions"
 	)
 
 	// Note: Don't store your key in your source code. Pass it via an
@@ -94,7 +94,7 @@ so it is easy to register new datatypes for storage in sessions:
 
 	import(
 		"encoding/gob"
-		"github.com/gorilla/sessions"
+		"github.com/cj123/sessions"
 	)
 
 	type Person struct {
